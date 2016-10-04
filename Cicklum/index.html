@@ -1,0 +1,374 @@
+<!DOCKTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <!-- 1. Подключим библиотеку jQuery (без нее jQuery UI не будет работать) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <!-- 2. Подключим jQuery UI -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"><img src="microsoft.png"></a>
+        </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ">
+                    <li class="dropdown"><a href="#">Store<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Store Home</a></li>
+                            <li class="dropdown"><a href="#">Devices<span class="fa fa-angle-right"></span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Microsoft Surface</a></li>
+                                    <li><a href="#"> PCs and tablets</a></li>
+                                    <li><a href="#">Xbox</a></li>
+                                    <li><a href="#">Windows phone</a></li>
+                                    <li><a href="#">Microsoft band</a></li>
+                                    <li><a href="#">Virtual reality</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Software<span class="fa fa-angle-right"></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Office</a></li>
+                                    <li><a href="#">Windows</a></li>
+                                    <li><a href="#">Additional software</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Apps<span class="fa fa-angle-right"></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">All apps</a></li>
+                                    <li><a href="#">Windows apps</a></li>
+                                    <li><a href="#">Windows phone apps</a></li>
+                                    <li><a href="#">Xbox apps</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Game<span class="fa fa-angle-right"></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Xbox one games</a></li>
+                                    <li><a href="#">Xbox 360 games</a></li>
+                                    <li><a href="#">Windows games</a></li>
+                                    <li><a href="#">Games for windows</a></li>
+                                    <li><a href="#">PC games</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Entertainment<span class="fa fa-angle-right"></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">All entertainment</a></li>
+                                    <li><a href="#">Movies & TV</a></li>
+                                    <li><a href="#">Music</a></li>
+                                    <li><a href="#">PC games</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Business & Education<span class="fa fa-angle-right"> </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Business Store</a></li>
+                                    <li><a href="#">Education Store</a></li>
+                                    <li><a href="#">Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Deals<span class="fa fa-angle-right"></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Back-to-school deals</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Surface deal</a></li>
+                                    <li><a href="#">Free shipping. Fre returns</a></li>
+                                    <li><a href="#">Gift Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Find a store</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Products<span class="fa fa-angle-down"></span></a>
+                    <ul class="sub-menu">
+                        <li class="dropdown"><a href="#">Sofware & service</a><span class="fa fa-angle-right"></span>
+                        <ul class="sub-menu">
+                            <li><a href="#">Windows</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Free download & security</a></li>
+                            <li><a href="#">Internet Explorer</a></li>
+                            <li><a href="#">Microsoft Edge</a></li>
+                            <li><a href="#">Skype</a></li>
+                            <li><a href="#">OneDrive</a></li>
+                            <li><a href="#">MSN</a></li>
+                            <li><a href="#">Bing</a></li>
+                            <li><a href="#">Microsoft Groove</a></li>
+                            <li><a href="#">Microsoft Films & TV</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Devices & Xbox</a><span class="fa fa-angle-right"></span>
+                            <ul class="sub-menu">
+                                <li><a href="#">All Microsoft devices</a></li>
+                                <li><a href="#">Microsoft Surface</a></li>
+                                <li><a href="#">PC Accessories</a></li>
+                                <li><a href="#">XBox & games</a></li>
+                                <li><a href="#">Microsoft Lumia</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">For business</a><span class="fa fa-angle-right"></span>
+                        <ul class="sub-menu">
+                            <li><a href="#">Cloud platform</a></li>
+                            <li><a href="#">Microsoft Dynamic</a></li>
+                            <li><a href="#">Windows for business</a></li>
+                            <li><a href="#">Office for dusinesss</a></li>
+                            <li><a href="#">Skype for business</a></li>
+                            <li><a href="#">surface for business</a></li>
+                            <li><a href="#">Enterprise solution</a></li>
+                            <li><a href="#">Small business solution</a></li>
+                            <li><a href="#">Find a solution provider</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">For developers & IT pros</a><span class="fa fa-angle-right"></span>
+                        <ul class="sub-menu">
+                            <li><a href="#">MSDN</a></li>
+                            <li><a href="#">Techmet</a></li>
+                        </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">For students & education </a><span class="fa fa-angle-right"></span>
+                        <ul class="sub-menu">
+                            <li><a href="#">Office for students</a></li>
+                            <li><a href="#">OneNote in classroom</a></li>
+                            <li><a href="#">Shop PCs & tablets perfect for students</a></li>
+                            <li><a href="#">Microsoft in Education</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Support</a></li>
+
+
+                </ul>
+
+                <div class="navbar-right">
+                    <div class="navbar-form " id="item">
+                        <div class="form-group">
+                            <input type="search" placeholder="Search Microsoft.com" data-toggle="tooltip" title="Search Microsoft.com" data-placement="bottom">
+                            <button>
+                                <span class="fa fa-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                        <div id="item" >
+                                <a id ="shoping-cart" href="https://www.microsoftstore.com/store?Action=DisplayPage&Env=BASE&Locale=en_AU&SiteID=msaus&id=ThreePgCheckoutShoppingCartPage"><span class=" fa fa-shopping-cart"></span></a>
+                        </div>
+                    <div id="item" class="sign"><p><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1471610692&rver=6.7.6643.0&wp=MBI&wreply=https%3a%2f%2fwww.microsoft.com%2fen-au%3flc%3d1033&lc=1033&id=74335&aadredir=1">Sign in<a></a></p></div>
+                </div>
+
+
+        </div>
+    </div>
+
+</nav>
+<section class="firstsection">
+    <div>
+        <div class="col-md-offset-1 col-md-4">
+            <p class="bigger">Secure access, synchronization and collaboration</p>
+            <p class="smaller">Storage and secure access to data - Dropbox Business accounts are trusted system administrators and users to enjoy.</p>
+            <button class="btn btn-primary">Try a free 30-day trial version</button>
+            <p class="else">or <a href="https://www.dropbox.com/business/buy">buy now!</a> </p>
+        </div>
+        <div class="col-md-7">
+            <div class="background-container "></div>
+        </div>
+    </div>
+
+</section>
+<section class="secondsection">
+    <h2 class="text-center">Join over 2 million designers already using InVision. Get InVision <strong>free</strong> forever!</h2>
+    <form class="text-center form-inline">
+        <div class="form-group">
+            <div class="inner-addon inner-addon-first left-addon">
+                <i class="fa fa-user fa-2x"></i>
+                <input type="text"   placeholder="Your Name">
+            </div>
+            <div class="inner-addon inner-addon-second left-addon">
+                <i class="fa fa-envelope fa-2x"></i>
+                <input type="text"   placeholder="Email Address">
+            </div>
+            <div class="inner-addon inner-addon-third left-addon">
+                <i class="fa fa-lock fa-2x"></i>
+                <input type="text"   placeholder="Create a Password">
+            </div>
+            <div class="inner-addon">
+                <button type="submit">GET STARTED - FREE FOREVER!</button>
+            </div>
+        </div>
+    </form>
+<p class="text-center">By clicking "Get Started — Free Forever!" I agree to InVision's<a href="https://www.invisionapp.com/terms"> Terms of Service.</a></p>
+</section>
+<section class="thirdsection">
+    <div class="container">
+        <div class="col-md-3">
+            <h4><strong>PRODUCT</strong></h4>
+            <hr>
+            <ul>
+                <li><a href="https://www.oculus.com/experiences/gear-vr/">Experience</a></li>
+                <li><a href="https://www3.oculus.com/en-us/gear-vr/">Gear VR</a></li>
+                <li><a href="https://www3.oculus.com/en-us/rift/">Rift</a></li>
+                <li><a href="https://www3.oculus.com/en-us/touch/">Touch</a></li>
+                <li><a href="https://www3.oculus.com/en-us/oculus-ready-pcs/">Oculus Ready PCs</a></li>
+                <li><a href="https://www.oculus.com/medium/">Medium</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4><strong>DEVELOPERS</strong></h4>
+                <hr>
+            <ul>
+                <li><a href="https://developer.oculus.com/">Developer Center</a></li>
+                <li><a href="https://developer3.oculus.com/documentation/">Docs</a></li>
+                <li><a href="https://developer3.oculus.com/downloads/">Downloads</a></li>
+                <li><a href="https://dashboard.oculus.com/tools/osig-generator/">Tools</a></li>
+                <li><a href="https://developer.oculus.com/blog/">Developers blog</a></li>
+                <li><a href="https://forums.oculus.com/developer/">Developers Forum</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4><strong>Company</strong></h4>
+            <hr>
+            <ul>
+                <li><a href="https://www.oculus.com/blog/">Blog</a></li>
+                <li><a href="https://www3.oculus.com/en-us/careers/">Careers</a></li>
+                <li><a href="https://www3.oculus.com/en-us/news/">News</a></li>
+                <li><a href="https://www.oculus.com/press-kit/identity/">Press Kit</a></li>
+                <li><a href="https://storystudio.oculus.com/en-us/">Story Studio</a></li>
+                <li><a href="https://www.oculusconnect.com/">Oculus Connect</a></li>
+                <li><a href="https://www.oculus.com/research/">Research</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4><strong>Community</strong></h4>
+            <hr>
+            <ul>
+                <li><a href="https://support.oculus.com/">Support</a></li>
+                <li><a href="https://forums.oculus.com/community">Forum</a></li>
+                <li><a href="https://shop.oculus.com/en-us/history-login/">Order History</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<footer>
+<div class="container">
+    <div class="col-md-offset-1 col-md-2">
+        <h6>Shop and Learn</h6>
+        <ul>
+            <li><a href="http://www.apple.com/mac/">Mac</a></li>
+            <li><a href="http://www.apple.com/ipad/">iPad</a></li>
+            <li><a href="http://www.apple.com/iphone/">iPhone</a></li>
+            <li><a href="http://www.apple.com/watch/">Watch</a></li>
+            <li><a href="http://www.apple.com/tv/">TV</a></li>
+            <li><a href="http://www.apple.com/music/">Music</a></li>
+            <li><a href="http://www.apple.com/itunes/">iTunes</a></li>
+            <li><a href="http://www.apple.com/ipod/">iPod</a></li>
+            <li><a href="http://www.apple.com/shop/accessories/all-accessories">Accessories</a></li>
+            <li><a href="http://www.apple.com/shop/gift-cards">Gift Cards</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <h6>Apple Store</h6>
+        <ul>
+            <li><a href="http://www.apple.com/retail/">Find a Store</a></li>
+            <li><a href="http://www.apple.com/retail/geniusbar/">Genius Bar</a></li>
+            <li><a href="http://www.apple.com/retail/learn/">Workshops and Learning</a></li>
+            <li><a href="http://www.apple.com/retail/learn/youth/">Youth Programs</a></li>
+            <li><a href="https://itunes.apple.com/app/apple-store/id375380948?mt=8">Apple Store App </a></li>
+            <li><a href="http://www.apple.com/shop/browse/home/specialdeals">Refurbished</a></li>
+            <li><a href="http://www.apple.com/shop/browse/finance/instant_credit">Financing</a></li>
+            <li><a href="http://www.apple.com/recycling/">Reuse snd Recycling </a></li>
+            <li><a href="http://www.apple.com/shop/account/home">Order Status</a></li>
+            <li><a href="http://www.apple.com/shop/help">Shoping Help</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <h6>For Education</h6>
+        <ul>
+            <li><a href="http://www.apple.com/education/">Apple and Education</a></li>
+            <li><a href="http://www.apple.com/us-hed/shop">Shop for College</a></li>
+        </ul>
+        <h6>For Business</h6>
+        <ul>
+            <li><a href="http://www.apple.com/business/">Apple and Business</a></li>
+            <li><a href="http://www.apple.com/retail/business/">Shop for Business</a></li>
+
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <h6>Account</h6>
+        <ul>
+            <li><a href="https://appleid.apple.com/#!&page=signin">Manage Your ID</a></li>
+            <li><a href="http://www.apple.com/us-hed/shop/account/home">Apple Store Account</a></li>
+            <li><a href="https://www.icloud.com/">iCloud.com</a></li>
+        </ul>
+        <h6>Apple Values</h6>
+        <ul>
+            <li><a href="http://www.apple.com/accessibility/">Accessibility</a></li>
+            <li><a href="http://www.apple.com/education/connectED/">Education</a></li>
+            <li><a href="http://www.apple.com/environment/">Enviroment</a></li>
+            <li><a href="http://www.apple.com/diversity/">Inclusion and Diversity</a></li>
+            <li><a href="http://www.apple.com/privacy/">Privacy</a></li>
+            <li><a href="http://www.apple.com/supplier-responsibility/">Supplier Responsibility</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <h6>About Apple</h6>
+        <ul>
+            <li><a href="http://www.apple.com/about/">Apple Info</a></li>
+            <li><a href="http://www.apple.com/newsroom/">Newsroom</a></li>
+            <li><a href="http://www.apple.com/jobs/us/">Job Opportunities</a></li>
+            <li><a href="http://www.apple.com/pr/">Press Info</a></li>
+            <li><a href="http://investor.apple.com/">Investors</a></li>
+            <li><a href="http://www.apple.com/apple-events/">Events</a></li>
+            <li><a href="http://www.apple.com/contact/">Contact Apple</a></li>
+        </ul>
+
+    </div>
+    <div class=" col-md-offset-1 col-md-11">
+        <p id="under-href">More ways to shop: Visit an<a href="http://www.apple.com/retail/"> Apple Store</a>, call 1-800-MY-APPLE, or <a href="https://locate.apple.com/">find a reseller.</a></p>
+        <hr>
+        <p class="col-md-4">Copyright © 2016 Apple Inc. All rights reserved.</p>
+        <ul class="col-md-5">
+            <li><a href="http://www.apple.com/privacy/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="http://www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a></li>
+            <li><a href="http://www.apple.com/shop/browse/open/salespolicies">Sales and Refunds</a></li>
+            <li><a href="http://www.apple.com/legal/">Legal</a></li>
+            <li><a href="http://www.apple.com/sitemap/">Site Map</a></li>
+        </ul>
+        <div class="col-md-offset-1 col-md-2">
+            <div class="us-flag" id="flag"></div><div id ="flag"><a href="http://www.apple.com/choose-your-country/">United States</a></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+        <script>
+    $(document).ready(function() {
+    $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+    );
+        $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+</body>
+</html>
